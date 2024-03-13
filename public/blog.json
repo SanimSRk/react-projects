@@ -2,7 +2,7 @@
   {
     "id": 1,
     "cover": "https://i.postimg.cc/2SPg6W3p/2.png",
-    "title": "An Exploration of the Mysteries of the Cosmos: Unveiling the Wonders of the Universe through Modern Science and Imagination",
+    "title": "Building Resilience: A Knowledge Cafe on Mental Health and Well-being",
     "author": "John Doe",
     "img": "https://i.postimg.cc/RhFgGCqQ/boy1.png",
     "date": "2024-03-12",
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "cover": "https://i.postimg.cc/YSKykwyM/3.png",
-    "title": "Unraveling the Intricacies of Artificial Intelligence: A Comprehensive Journey into Machine Learning, Neural Networks, and Beyond",
+    "title": "Embracing Innovation: A Knowledge Cafe on Future Technologies",
     "author": "Jane Smith",
     "img": "https://i.postimg.cc/LsDk7dcy/boy2.jpg",
     "date": "2024-03-11",
@@ -22,7 +22,7 @@
   {
     "id": 3,
     "cover": "https://i.postimg.cc/jjH3SkGN/4.jpg",
-    "title": "Immersing Yourself in the Depths of History: Unveiling the Chronicles of Civilizations, Empires, and the Evolution of Humanity",
+    "title": "Navigating Change: A Knowledge Cafe on Organizational Transformation",
     "author": "Alice Johnson",
     "img": "https://i.postimg.cc/2yb4V1VJ/girl1.jpg",
     "date": "2024-03-10",
@@ -32,8 +32,7 @@
   {
     "id": 4,
     "cover": "https://i.postimg.cc/G2zMkT3m/cover1.jpg",
-    "title": "Venturing into the Wild: A Thrilling Expedition into Nature's Untamed Territories and the Majesty of Wildlife",
-    "author": "Mark Brown",
+    "title": "Unlocking Creativity: A Knowledge Cafe on Design Thinking",
     "img": "https://i.postimg.cc/sDWYzZFG/girl2.jpg",
     "date": "2024-03-09",
     "time": 15,

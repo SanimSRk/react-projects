@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
-const Blog = ({ blog }) => {
+const Blog = ({ blog, bookMarkHandile, addToAllTime }) => {
   const { cover, title, author, img, date, time, hashtag } = blog;
-  console.log(blog);
 
   return (
     <div className="">
@@ -22,7 +21,7 @@ const Blog = ({ blog }) => {
             <h2 className="text-xl text-[#11111199] font-medium">
               {time} min read
             </h2>
-            <button>
+            <button onClick={() => bookMarkHandile(blog)}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -43,7 +42,9 @@ const Blog = ({ blog }) => {
         <div className="">
           <h2 className="mt-5 leading-normal lg:text-3xl font-bold">{title}</h2>
           <h2 className="my-5">{hashtag}</h2>
-          <button className="btn ">Mark is red </button>
+          <button onClick={() => addToAllTime(blog.time)} className="btn ">
+            Mark is red{' '}
+          </button>
         </div>
       </div>
     </div>
@@ -52,5 +53,6 @@ const Blog = ({ blog }) => {
 
 Blog.propTypes = {
   blog: PropTypes.object.isRequired,
+  bookMarkHandile: PropTypes.func.isRequired,
 };
 export default Blog;
